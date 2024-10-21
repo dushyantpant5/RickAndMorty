@@ -13,6 +13,12 @@ class CharactersViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Characters"
+        
+        let request = Request(endPoint: .character)
+        
+        Service.singleSharedInstance.
+        
+        
     }
     
 }
